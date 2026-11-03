@@ -20,3 +20,17 @@
     --logo-size: clamp(120px, 9px + 14.4531vw, 157px);
   }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-bg-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --bg-image: url(../images/cover-image-light.png);
+    --main-text-color: #353430;
+    --nav-color: #353430;
+    --nav-hover-color: rgb(53 52 48 / 0.4);
+    --main-heading-color: #353430;
+    --section-heading-color: #ff8dcb;
+    --header-logo-color: #ffc2e6;
+  }
+}

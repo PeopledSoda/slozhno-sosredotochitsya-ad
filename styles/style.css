@@ -55,9 +55,9 @@
 
 .text__block {
   color: var(--main-text-color);
+  font-size: var(--main-text-size);
+  line-height: var(--main-line-height);
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.3;
 }
 
 .header__theme-menu {
@@ -170,16 +170,15 @@
   grid-template-columns: 1fr;
   gap: calc(2 * var(--main-gap));
 }
-.text__block {
-  font-size: var(--main-text-size);
-  line-height: var(--main-line-height);
-  font-weight: 400;
-}
-
 .section_4 {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--main-gap);
+}
+
+.page {
+  background-color: var(--main-bg-color);
+  background-attachment: fixed;
 }
 .image__blok {
   display: grid;
